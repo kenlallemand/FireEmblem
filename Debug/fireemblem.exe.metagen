@@ -1,0 +1,75 @@
+  fireemblem.finalgame.resources - Embedded, ContainedInManifestFile, 
+  fireemblem.gameplay.resources - Embedded, ContainedInManifestFile, 
+  fireemblem.menu.resources - Embedded, ContainedInManifestFile, 
+  fireemblem.registro.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly fireemblem, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class fireemblem.finalgame: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class fireemblem.gameplay: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Nodocolumna PTR : Public
+    Personaje jinete1 : Public
+    Personaje caballero1 : Public
+    Personaje luchador1 : Public
+    Personaje mercenario1 : Public
+    Personaje myrmidon1 : Public
+    Personaje jugador1 : Public
+    Personaje jugador2 : Public
+    Personaje jinete2 : Public
+    Personaje caballero2 : Public
+    Personaje luchador2 : Public
+    Personaje mercenario2 : Public
+    Personaje myrmidon2 : Public
+    Int32 arma1 : Public
+    Int32 arma2 : Public
+  Methods:
+    parametrounidades(Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Int32, Int32): PrivateScope, Public, HideBySig
+    parametrojugador(String, String): PrivateScope, Public, HideBySig
+    estadisticaslabel(Personaje, Label): PrivateScope, Public, HideBySig
+    condiciondoblegolpe(Int32, Int32): PrivateScope, Public, HideBySig
+    TriArmaProb(Int32, Int32): PrivateScope, Public, HideBySig
+    TriArmaDaño(Int32, Int32): PrivateScope, Public, HideBySig
+    Probabilidadgolpe(Int32, Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    daño(Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    llenarDG(): PrivateScope, Public, HideBySig
+    llenarlista(Nodocolumna&): PrivateScope, Public, HideBySig
+    crearlista(Nodocolumna&): PrivateScope, Public, HideBySig
+    mostrarDG(Nodocolumna&): PrivateScope, Public, HideBySig
+    estadisticas(Personaje, Int32, Int32, Int32, Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    estadisticasunidades(Personaje&, Personaje&, Personaje&, Personaje&, Personaje&): PrivateScope, Public, HideBySig
+    estadisticasplayer(Personaje&): PrivateScope, Public, HideBySig
+    retornarnodoconpos(Int32, Int32): PrivateScope, Public, HideBySig
+Class fireemblem.inisesion: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class fireemblem.registro: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class fireemblem.menu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class fireemblem.menureg: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class fireemblem.uni: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
